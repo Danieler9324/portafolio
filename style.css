@@ -1,0 +1,25 @@
+:root{
+    --color-primario: white;
+    --color-secundario: black;
+    --color-terceario: gray;
+}
+
+body {
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
