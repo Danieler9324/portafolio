@@ -1,11 +1,22 @@
 :root{
-    --color-primario: white;
-    --color-secundario: black;
-    --color-terceario: gray;
+    --color-primario: #ffffff;
+    --color-secundario: #292828;
+    --color-terceario: #9ca3af;
+
 }
 
 body {
     margin: 0;
+}
+
+.presentacion {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .nav {
@@ -23,3 +34,8 @@ body {
     list-style: none;
     gap: 20px;
 }
+
+.nav a {
+    color: var(--color-primario);
+    text-decoration: none;
+};
