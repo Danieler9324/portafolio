@@ -41,6 +41,29 @@ body {
     width: 50vh;
 }
 
+.con-certi {
+    padding: 40px 80px;
+}
+
+.con-certi h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid-certi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.certi {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid #ddd;
+}
+
+
 .nav {
     display: flex;
     justify-content: space-between;
@@ -60,4 +83,4 @@ body {
 .nav a {
     color: var(--color-primario);
     text-decoration: none;
-};
+}
