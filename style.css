@@ -20,12 +20,25 @@ body {
 }
 
 .secc-sobre-mi {
-    min-height: 80vh;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
+    min-height: 70vh;
+    padding: 40px 80px;
+}
+
+.contenido {
+    width: 50%;
+    text-align: left;
+}
+
+.con-img {
+    width: 40%;
+    height: 300px;
+}
+
+.img {
+    width: 50vh;
 }
 
 .nav {
