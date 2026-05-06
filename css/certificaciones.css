@@ -1,0 +1,58 @@
+:root{
+    --color-primario: #ffffff;
+    --color-secundario: #292828;
+    --color-terceario: #9ca3af;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-secundario);
+    color: var(--color-primario);
+    width: 100%;
+    padding: 15px 30px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav a {
+    color: var(--color-primario);
+    text-decoration: none;
+}
+
+.con-certi {
+    padding: 40px 80px;
+}
+
+.con-certi h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid-certi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+
+.certi {
+    width: 90%;
+    height: 400px;
+    object-fit: cover;
+    border: 1px solid var(--color-primario);
+}
