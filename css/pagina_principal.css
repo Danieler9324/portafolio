@@ -52,6 +52,7 @@ body {
 .contenido {
     width: 50%;
     color: var(--color-primario);
+    font-size: 18px;
 }
 
 .con-img {
