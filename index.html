@@ -3,15 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/presentacion.css">
-    <script src="script.js" defer></script>
-    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/pagina_principal.css">
+    <title>Pagina principal</title>
 </head>
 <body>
-    <section class="presentacion">
-        <h1>Daniel Viramontes Alfaro</h1>
-        <h2>Estudiante de bachillerato en el Cetis 155 en la especialidad de programación</h2>
-        <button id="boton-conoceme" class="btnCon">¡Conóceme!</button>
+    <nav class="nav">
+        <ul>
+            <li><a href="./certificaciones.html">certificaciones</a></li>
+        </ul>
+    </nav>
+
+    <section class="grid">
+        <div class="secc" id="sobre-mi">
+            <div class="contenido">
+                <h1>Sobre mí</h1>
+                <p>
+                    Estudiante de programación apasionado por la construcción de soluciones digitales y el aprendizaje continuo. Mi enfoque se centra en el desarrollo de software robusto, integrando tanto lógica de backend como interfaces de frontend bajo un flujo de trabajo profesional utilizando Git y GitHub.
+                </p>
+                <p>
+                    Actualmente, cuento con certificaciones en plataformas como HackerRank, Cisco y ScrumStudy, lo que me ha permitido adoptar metodologías ágiles (Scrum) para la gestión eficiente de proyectos y asegurar la calidad técnica en cada línea de código. Me motiva resolver problemas complejos a través de la tecnología y siempre busco implementar las mejores prácticas de arquitectura y diseño.
+                </p>
+            </div>
+
+            <div class="con-img">
+                <img src="./imagenes/sobre-mi.png" alt="imagen sobre mi" class="img">
+            </div>
+        </div>
+
+        <div class="secc invertido" id="proyectos-academicos">
+            <div class="contenido">
+                <h1> Proyectos en los que he participado </h1>
+                <h3>¡Que Buen Dato!</h3>
+                <p>
+                    Plataforma web de autoevaluación enfocada en la preparación para exámenes de admisión.
+                </p>
+                <p><strong>Tecnologías:</strong> Node.js, Express, MySQL, Handlebars, JavaScript.</p>
+                <p>
+                    Este proyecto fue desarrollado con el objetivo de ayudar a estudiantes a identificar
+                    sus áreas de oportunidad mediante la competencia y simulacros del examen de admision.
+                </p>
+            </div>
+
+            <div class="con-img">
+                <img src="/imagenes/logoQBD.png" alt="Logo de ¡Que Buen Dato!" class="img qbd">
+            </div>
+
+        </div>
     </section>
 </body>
 </html>
