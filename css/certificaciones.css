@@ -52,7 +52,7 @@ body {
 
 .certi {
     width: 90%;
-    height: 400px;
+    height: 480px;
     object-fit: cover;
     border: 1px solid var(--color-primario);
 }
