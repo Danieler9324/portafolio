@@ -21,7 +21,7 @@ body {
     background-color: var(--color-secundario);
     color: var(--color-primario);
     width: 100%;
-    padding: 15px 30px;
+    padding: 15px 20px;
 }
 
 .nav ul {
@@ -36,23 +36,39 @@ body {
 }
 
 .con-certi {
-    padding: 40px 80px;
+    padding: 30px 15px;
+    max-width: 95%;
+    margin: 0 auto;
 }
 
 .con-certi h1 {
     text-align: center;
     margin-bottom: 40px;
-}
+} 
 
 .grid-certi {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    gap: 40px;
+    justify-items: center;
 }
 
 .certi {
-    width: 90%;
-    height: 480px;
-    object-fit: cover;
-    border: 1px solid var(--color-primario);
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    border: 2px solid var(--color-primario);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease-in-out
+}
+
+.certi:hover {
+    transform: scale(1.03);
+}
+
+@media (max-width: 400px) {
+    .grid-certi {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 20px;
+    }
 }
